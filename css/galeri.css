@@ -199,3 +199,17 @@ main {
     visibility: visible;
     opacity: 1;
 }
+
+
+@media (max-width: 768px) {
+  .gallery-title, .calendar-title-main {
+    font-size: 28px;
+  }
+  .calendar-day, .calendar-day-empty {
+    height: 45px;
+    font-size: 14px;
+  }
+  .event-calendar-container {
+    padding: 20px;
+  }
+}

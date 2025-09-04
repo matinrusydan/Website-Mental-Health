@@ -212,3 +212,21 @@
   gap: 27px;
   font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 768px) {
+  .about-overlay {
+    padding: 0 20px;
+  }
+  .about-content {
+    padding: 20px;
+  }
+  .about-title {
+    font-size: 32px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
+  .vision-mission-content {
+    flex-direction: column;
+  }
+}

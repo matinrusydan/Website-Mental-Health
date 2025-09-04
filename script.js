@@ -23,3 +23,17 @@
       }, 400); // sama dengan durasi animasi
     });
   });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const mobileNav = document.getElementById('mobile-nav');
+  const navbar = document.querySelector('.navbar');
+
+  if (hamburgerBtn && mobileNav && navbar) {
+    hamburgerBtn.addEventListener('click', () => {
+      // Toggle kelas 'active' untuk mengubah ikon dan menampilkan menu
+      navbar.classList.toggle('nav-active');
+    });
+  }
+});
