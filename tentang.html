@@ -4,124 +4,125 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thread of Hope</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/tentang.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
   </style>
 </head>
 <body>
 
-<nav class="navbar container">
-  <div class="logo">thread of hope</div>
-  <div class="btn-navbar">
-      <span class="indicator"></span>
-      <a href="index.html" class="nav-btn">Beranda</a>
-      <a href="tentang.html" class="nav-btn">Tentang</a>
-      <a href="ebook.html" class="nav-btn">E-Book</a>
-      <a href="galeri.html" class="nav-btn">Galeri</a>
+<nav class="navbar">
+  <div class="container">
+    <div class="logo">thread of hope</div>
+    <div class="btn-navbar">
+        <span class="indicator"></span>
+        <a href="index.html" class="nav-btn">Beranda</a>
+        <a href="tentang.html" class="nav-btn">Tentang</a>
+        <a href="ebook.html" class="nav-btn">E-Book</a>
+        <a href="galeri.html" class="nav-btn">Galeri</a>
+    </div>
   </div>
 </nav>
 
-<section class="about-section container">
-  <div class="about-card">
-    <img src="images/kegiatan kemanusiaan mental health 2.jpg" alt="Tentang Kami" class="about-image">
-    <div class="about-overlay">
-      <div class="about-content">
-        <h2 class="about-title">Merajut Harapan Melalui Cerita Bersama</h2>
-        <p class="about-subtitle">
-          Sebuah ruang untuk berbagi pengalaman, saling menguatkan, dan menumbuhkan harapan lewat cerita yang kita
-          rangkai bersama.
+<section class="about-section">
+  <div class="container">
+    <div class="about-card">
+      <img src="images/kegiatan kemanusiaan mental health 2.jpg" alt="Tentang Kami" class="about-image">
+      <div class="about-overlay">
+        <div class="about-content">
+          <h2 class="about-title">Merajut Harapan Melalui Cerita Bersama</h2>
+          <p class="about-subtitle">
+            Sebuah ruang untuk berbagi pengalaman, saling menguatkan, dan menumbuhkan harapan lewat cerita yang kita
+            rangkai bersama.
+          </p>
+          <a href="#visi-misi" class="btn-about">Visi &amp; Misi Kami</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="join-section">
+  <div class="container">
+    <div class="join-card">
+      <div class="join-header">
+        <h2 class="join-title">Mari Bergabung Bersama Kami</h2>
+        <p class="join-subtitle">
+          Kami percaya, langkah kecil bisa membawa perubahan besar. Yuk, bergabung dan tumbuh bersama komunitas ini.
         </p>
-        <a href="#visi-misi" class="btn-about">Visi &amp; Misi Kami</a>
       </div>
+      <form class="join-form" action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" class="form-input" placeholder="Contoh: Rika Riyani">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Contoh: rika@gmail.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="hp">Nomor Handphone</label>
+            <input type="text" id="hp" name="hp" class="form-input" placeholder="Contoh: +62123456789">
+          </div>
+          <div class="form-group">
+            <label for="instansi">Instansi</label>
+            <input type="text" id="instansi" name="instansi" class="form-input" placeholder="Contoh: Universitas Siliwangi">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="motivasi">Motivasi Bergabung</label>
+          <textarea id="motivasi" name="motivasi" class="form-input textarea" placeholder="Masukkan motivasi anda"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn-submit">Kirim</button>
+        </div>
+      </form>
     </div>
   </div>
 </section>
-
-
-<section class="join-section container">
-  <div class="join-card">
-    <div class="join-header">
-      <h2 class="join-title">Mari Bergabung Bersama Kami</h2>
-      <p class="join-subtitle">
-        Kami percaya, langkah kecil bisa membawa perubahan besar. Yuk, bergabung dan tumbuh bersama komunitas ini.
-      </p>
-    </div>
-
-    <form class="join-form" action="#" method="post">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="nama">Nama Lengkap</label>
-          <input type="text" id="nama" name="nama" class="form-input" placeholder="Contoh: Rika Riyani">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" class="form-input" placeholder="Contoh: rika@gmail.com">
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label for="hp">Nomor Handphone</label>
-          <input type="text" id="hp" name="hp" class="form-input" placeholder="Contoh: +62123456789">
-        </div>
-        <div class="form-group">
-          <label for="instansi">Instansi</label>
-          <input type="text" id="instansi" name="instansi" class="form-input" placeholder="Contoh: Universitas Siliwangi">
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label for="motivasi">Motivasi Bergabung</label>
-        <textarea id="motivasi" name="motivasi" class="form-input textarea" placeholder="Masukkan motivasi anda"></textarea>
-      </div>
-
-      <div class="form-actions">
-        <button type="submit" class="btn-submit">Kirim</button>
-      </div>
-    </form>
-  </div>
-</section>
-
-
-
 
 <footer class="footer">
-  <div class="footer-top container">
-    <div class="footer-col">
-      <h4 class="footer-heading">Useful Links</h4>
-      <ul class="footer-links">
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="tentang.html">Tentang</a></li>
-        <li><a href="galeri.html">Galeri</a></li>
-        <li><a href="kontak.html">Kontak</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col">
-      <ul class="footer-contact">
-        <li>+62 123456798</li>
-        <li>email@gmail.com</li>
-      </ul>
-      <div class="footer-socials">
-        <a href="#"><img src="img/image.png" alt="social"></a>
-        <a href="#"><img src="img/vector.png" alt="social"></a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-col">
+          <h4 class="footer-heading">Useful Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-contact">
+            <li>+62 123456798</li>
+            <li>email@gmail.com</li>
+          </ul>
+          <div class="footer-socials">
+            <a href="#"><img src="images/image.png" alt="social"></a>
+            <a href="#"><img src="images/vector.png" alt="social"></a>
+          </div>
+        </div>
+        <div class="footer-col footer-right">
+          <a href="#" class="btn-footer">Gabung Bersama Kami</a>
+          <p class="footer-address">Tasikmalaya, West Java, Indonesia</p>
+        </div>
       </div>
     </div>
-
-    <div class="footer-col footer-right">
-      <a href="#" class="btn-footer">Gabung Bersama Kami</a>
-      <p class="footer-address">Tasikmalaya, West Java, Indonesia</p>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 — Copyright</p>
+        <a href="#">Privacy</a>
+      </div>
     </div>
-  </div>
+  </footer>
 
-  <div class="footer-bottom container">
-    <p>© 2025 — Copyright</p>
-    <a href="#">Privacy</a>
-  </div>
-</footer>
-
+<script src="script.js"></script>
 </body>
 </html>
 
-<script src="script.js"></script>
